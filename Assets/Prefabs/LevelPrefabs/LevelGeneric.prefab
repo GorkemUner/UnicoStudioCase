@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8867849813130581217}
   - component: {fileID: 5059578857847387751}
   m_Layer: 5
-  m_Name: bg
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 6755435747278871409}
   - component: {fileID: 2724940745209257397}
   m_Layer: 5
-  m_Name: Image (8)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 2235380921783593988}
   - component: {fileID: 8088374156325388055}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -310,7 +310,7 @@ GameObject:
   - component: {fileID: 6902499564751534426}
   - component: {fileID: 5414221727104426648}
   m_Layer: 5
-  m_Name: Image (15)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -422,7 +422,7 @@ GameObject:
   - component: {fileID: 3068277726786108882}
   - component: {fileID: 4712836313797607407}
   m_Layer: 5
-  m_Name: Image
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 7829412110759890581}
   - component: {fileID: 2891379890151217386}
   m_Layer: 5
-  m_Name: Image (12)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 312087763937576299}
   - component: {fileID: 1104591722370982198}
   m_Layer: 5
-  m_Name: Image (12)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 8570630610058790466}
   - component: {fileID: 5032619748781891856}
   m_Layer: 5
-  m_Name: Image (13)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -861,7 +861,7 @@ GameObject:
   - component: {fileID: 7630952722906460108}
   - component: {fileID: 3430922634591004099}
   m_Layer: 5
-  m_Name: Image (11)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -970,7 +970,7 @@ GameObject:
   - component: {fileID: 7341578905192270271}
   - component: {fileID: 578579300664292675}
   m_Layer: 5
-  m_Name: Panel (3)
+  m_Name: DefenceArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1237,7 +1237,7 @@ GameObject:
   - component: {fileID: 2159554624884067605}
   - component: {fileID: 1415965934599118447}
   m_Layer: 5
-  m_Name: Image (13)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 3918904257861819349}
   - component: {fileID: 4145225857634873470}
   m_Layer: 5
-  m_Name: Image (7)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1592,7 +1592,7 @@ GameObject:
   - component: {fileID: 5176391018625532636}
   - component: {fileID: 19710034703556175}
   m_Layer: 5
-  m_Name: Image (8)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1701,7 +1701,7 @@ GameObject:
   - component: {fileID: 8725988875737365437}
   - component: {fileID: 3854777166392028414}
   m_Layer: 5
-  m_Name: Image (14)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1810,7 +1810,7 @@ GameObject:
   - component: {fileID: 1129461473035251345}
   - component: {fileID: 7756087747249325535}
   m_Layer: 5
-  m_Name: Image (14)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1922,7 +1922,7 @@ GameObject:
   - component: {fileID: 2775617040706335524}
   - component: {fileID: 6137894580819038599}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2034,7 +2034,7 @@ GameObject:
   - component: {fileID: 4051865543724554973}
   - component: {fileID: 4417633511392270087}
   m_Layer: 5
-  m_Name: Image (7)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2311,7 +2311,7 @@ GameObject:
   - component: {fileID: 2321441504380459893}
   - component: {fileID: 6581915470161032940}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2423,7 +2423,7 @@ GameObject:
   - component: {fileID: 8413048272773808249}
   - component: {fileID: 71190507849091650}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2866,7 +2866,7 @@ GameObject:
   - component: {fileID: 8274634702847944628}
   - component: {fileID: 7965104165133435697}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2975,7 +2975,7 @@ GameObject:
   - component: {fileID: 8721098555373524539}
   - component: {fileID: 3587953259265486925}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3084,7 +3084,7 @@ GameObject:
   - component: {fileID: 3780325842217008729}
   - component: {fileID: 5089858254658171506}
   m_Layer: 5
-  m_Name: Image (10)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3193,7 +3193,7 @@ GameObject:
   - component: {fileID: 6672060747624371038}
   - component: {fileID: 483747172241586320}
   m_Layer: 5
-  m_Name: Image (6)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3302,7 +3302,7 @@ GameObject:
   - component: {fileID: 5333327339278123888}
   - component: {fileID: 5587816118573059202}
   m_Layer: 5
-  m_Name: Image (5)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3411,7 +3411,7 @@ GameObject:
   - component: {fileID: 517109057487559409}
   - component: {fileID: 6089725532427277715}
   m_Layer: 5
-  m_Name: Image (11)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3523,7 +3523,7 @@ GameObject:
   - component: {fileID: 137148738623110550}
   - component: {fileID: 8512217848303888853}
   m_Layer: 5
-  m_Name: Image (6)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3635,7 +3635,7 @@ GameObject:
   - component: {fileID: 7417892543118257757}
   - component: {fileID: 7526039628451290313}
   m_Layer: 5
-  m_Name: Image
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3747,7 +3747,7 @@ GameObject:
   - component: {fileID: 6555322930694297190}
   - component: {fileID: 6611715331451838832}
   m_Layer: 5
-  m_Name: Image (9)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3856,7 +3856,7 @@ GameObject:
   - component: {fileID: 1754430092577575582}
   - component: {fileID: 265343350148415867}
   m_Layer: 5
-  m_Name: Image (10)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3964,12 +3964,11 @@ GameObject:
   m_Component:
   - component: {fileID: 699353996163213150}
   - component: {fileID: 833166850528440574}
-  - component: {fileID: 4120514526434928205}
   - component: {fileID: 6116042039958468278}
   - component: {fileID: 462562889116830513}
   - component: {fileID: 438095167116536057}
   m_Layer: 5
-  m_Name: Panel (2)
+  m_Name: EnemyArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4018,36 +4017,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7714139877702188612}
   m_CullTransparentMesh: 1
---- !u!114 &4120514526434928205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7714139877702188612}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8018868, g: 0.374466, b: 0.52139187, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &6116042039958468278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4118,7 +4087,7 @@ GameObject:
   - component: {fileID: 686852500790476923}
   - component: {fileID: 7320261589220684011}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4230,7 +4199,7 @@ GameObject:
   - component: {fileID: 5862700017909719341}
   - component: {fileID: 6548393781252535978}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4339,7 +4308,7 @@ GameObject:
   - component: {fileID: 6519499070831530884}
   - component: {fileID: 7214190853761583942}
   m_Layer: 5
-  m_Name: Image (15)
+  m_Name: DefenceGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4484,7 +4453,7 @@ GameObject:
   - component: {fileID: 5739703901679063834}
   - component: {fileID: 571369706833053407}
   m_Layer: 5
-  m_Name: Image (9)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4596,7 +4565,7 @@ GameObject:
   - component: {fileID: 1508602757640568107}
   - component: {fileID: 5052497753647990325}
   m_Layer: 5
-  m_Name: Image (5)
+  m_Name: EnemyGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

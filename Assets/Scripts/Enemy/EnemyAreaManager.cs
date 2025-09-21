@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnemyGrids : Singleton<EnemyGrids>
+public class EnemyAreaManager : Singleton<EnemyAreaManager>
 {
     [SerializeField] private List<EnemyGrid> firstLineEnemyGrids;
     [SerializeField] private GridLayoutGroup gridLayoutGroup;

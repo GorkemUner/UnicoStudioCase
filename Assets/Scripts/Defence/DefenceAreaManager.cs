@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class DefenceAreaManager : Singleton<DefenceAreaManager>
 {
-    public List<DefenceAreaGrid> defenceAreaGrids;
+    [SerializeField]private List<DefenceGrid> defenceAreaGrids;
 
-    public DefenceAreaGrid GetEmptyNearestDistanceToMyPos(Vector2 pos)
+    public DefenceGrid GetEmptyNearestDistanceToMyPos(Vector2 pos)
     {
-        DefenceAreaGrid result = null;
+        DefenceGrid result = null;
         float minDist = float.MaxValue;
 
         foreach (var item in defenceAreaGrids)
@@ -22,9 +22,9 @@ public class DefenceAreaManager : Singleton<DefenceAreaManager>
         return result;
     }
 
-    public DefenceAreaGrid GetNearestDistanceToMyPos(Vector2 pos)
+    public DefenceGrid GetNearestDistanceToMyPos(Vector2 pos)
     {
-        DefenceAreaGrid result = null;
+        DefenceGrid result = null;
         float minDist = float.MaxValue;
 
         foreach (var item in defenceAreaGrids)

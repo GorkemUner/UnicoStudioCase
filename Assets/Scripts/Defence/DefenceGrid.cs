@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DefenceAreaGrid : MonoBehaviour
+public class DefenceGrid : MonoBehaviour
 {
     public bool IsEmpty => defenceItemBase == null;
 

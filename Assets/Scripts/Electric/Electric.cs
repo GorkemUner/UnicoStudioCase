@@ -18,7 +18,7 @@ public class Electric : MonoBehaviour
         this.damage = damage;
         rectTr.anchoredPosition = new Vector2(0, rectTr.anchoredPosition.y);
         rectTr.position = new Vector2(rectTr.position.x, initPosRect.position.y);
-        rectTr.sizeDelta = new Vector2(rectTr.sizeDelta.x,  range * EnemyGrids.Instance.GetDistanceBetweenCellsHorizontal());
+        rectTr.sizeDelta = new Vector2(rectTr.sizeDelta.x,  range * EnemyAreaManager.Instance.GetDistanceBetweenCellsHorizontal());
         img.sprite = sprite;
 
         UpdateCollider();

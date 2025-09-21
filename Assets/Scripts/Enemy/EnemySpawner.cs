@@ -62,11 +62,11 @@ public class EnemySpawner : MonoBehaviour
     {
         foreach (var enemyData in enemyDataToSpawnList)
         {
-            var temp = EnemyGrids.Instance.GetRandomEmptyGridAtFirstLine();
+            var temp = EnemyAreaManager.Instance.GetRandomEmptyGridAtFirstLine();
             if (temp == null)
             {
-                yield return new WaitUntil(EnemyGrids.Instance.IsAnyEmptyFirstLineToSpawnEnemy);
-                temp = EnemyGrids.Instance.GetRandomEmptyGridAtFirstLine();
+                yield return new WaitUntil(EnemyAreaManager.Instance.IsAnyEmptyFirstLineToSpawnEnemy);
+                temp = EnemyAreaManager.Instance.GetRandomEmptyGridAtFirstLine();
             }
    
             temp.IsEmpty = false;

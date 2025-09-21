@@ -43,7 +43,7 @@ public class Projectile : MonoBehaviour
 
     private float CalculateRange()
     {
-        return range * EnemyGrids.Instance.GetDistanceBetweenCellsHorizontal();
+        return range * EnemyAreaManager.Instance.GetDistanceBetweenCellsHorizontal();
 
     }
 }

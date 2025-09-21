@@ -18,7 +18,7 @@ public abstract class DefenceItemBase : MonoBehaviour, IDragHandler, IPointerUpH
     [SerializeField] protected GameObject attackGOPrefab;
 
     private Place place = Place.Menu;
-    private DefenceAreaGrid currentDefenceAreaGrid;
+    private DefenceGrid currentDefenceAreaGrid;
     private Place previousPlace;
     private float moveDuration = .3f;
 
@@ -112,7 +112,7 @@ public abstract class DefenceItemBase : MonoBehaviour, IDragHandler, IPointerUpH
         if (GameManager.Instance.GameState == GameState.OnBattle)
             return;
 
-        DefenceAreaGrid nearestDefenceAreaGrid;
+        DefenceGrid nearestDefenceAreaGrid;
 
         if (previousPlace == Place.BattleArea)
             nearestDefenceAreaGrid = DefenceAreaManager.Instance.GetNearestDistanceToMyPos(transform.position);
@@ -153,7 +153,7 @@ public abstract class DefenceItemBase : MonoBehaviour, IDragHandler, IPointerUpH
             DefenceMenuItem.CreateDefenceItemControl();
     }
 
-    protected void Swap(DefenceAreaGrid nearestDefenceAreaGrid)
+    protected void Swap(DefenceGrid nearestDefenceAreaGrid)
     {
         var otherItem = nearestDefenceAreaGrid.DefenceItemBase;
         var otherGrid = nearestDefenceAreaGrid;
