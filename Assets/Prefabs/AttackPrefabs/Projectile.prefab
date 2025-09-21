@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2603b8f776abf42e5aaefebd291a299b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1000
+  speed: 350
   rect: {fileID: 6505492299698054408}
   img: {fileID: 6284253919374572207}
 --- !u!50 &8270295696194299840
