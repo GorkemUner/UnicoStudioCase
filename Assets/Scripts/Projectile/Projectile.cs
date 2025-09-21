@@ -5,9 +5,11 @@ public class Projectile : MonoBehaviour
 {
     private int damage;
     private int range;
-    [SerializeField] private float speed = 350f;
-    [SerializeField]private RectTransform rect;
+    private float maxDistance;
     private Vector2 initPoint;
+
+    [SerializeField] private float speed = 350f;
+    [SerializeField] private RectTransform rect;
     [SerializeField] private Image img;
 
     public void Initialize(int damage, int range, Sprite sprite)
@@ -16,7 +18,7 @@ public class Projectile : MonoBehaviour
         this.range = range;
         img.sprite = sprite;
     }
-    float maxDistance;
+
     private void Start()
     {
         maxDistance = CalculateRange();
@@ -29,7 +31,6 @@ public class Projectile : MonoBehaviour
             transform.Translate(Vector3.up * speed * Time.deltaTime);
         else
             Destroy(gameObject);
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -44,6 +45,5 @@ public class Projectile : MonoBehaviour
     private float CalculateRange()
     {
         return range * EnemyAreaManager.Instance.GetDistanceBetweenCellsHorizontal();
-
     }
 }

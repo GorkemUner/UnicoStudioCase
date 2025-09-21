@@ -15,22 +15,14 @@ public class SuccessPanel : MonoBehaviour
         successButton.onClick.RemoveListener(OnSuccessButtonClicked);
     }
 
-
     private void OnSuccessButtonClicked()
     {
         Time.timeScale = 1f;
         LevelManager.Instance.NextLevel();
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 0f;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

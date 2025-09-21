@@ -15,7 +15,6 @@ public class FailPanel : MonoBehaviour
         failButton.onClick.RemoveListener(OnFailButtonClicked);
     }
  
-
     private void OnFailButtonClicked()
     {
         Time.timeScale = 1f;

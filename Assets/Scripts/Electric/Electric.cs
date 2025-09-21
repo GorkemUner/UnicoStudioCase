@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class Electric : MonoBehaviour
 {
     [SerializeField]private CanvasGroup cg;
-    private int damage;
     [SerializeField] private BoxCollider2D coll;
     [SerializeField] private RectTransform rectTr;
     [SerializeField] private Image img;
 
+    private int damage;
     private float disableCollEffectDuration = 1f;
 
     public void Initialize(int damage, RectTransform initPosRect, int range, Sprite sprite)

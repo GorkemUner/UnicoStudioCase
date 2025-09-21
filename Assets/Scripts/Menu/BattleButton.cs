@@ -12,7 +12,7 @@ public class BattleButton : MonoBehaviour
 
     private void OnDisable()
     {
-        
+        battleBtn.onClick.RemoveListener(OnBattleButtonClick);
     }
 
     public void OnBattleButtonClick()
@@ -20,11 +20,4 @@ public class BattleButton : MonoBehaviour
         battleBtn.enabled = false;
         GameManager.Instance.GameState = GameState.OnBattle;
     }
-}
-public enum GameState
-{
-    OnBattle,
-    OnPreBattle,
-    GameFail,
-    GameSuccess
 }

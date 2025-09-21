@@ -17,7 +17,6 @@ public abstract class DefenceItemBase : MonoBehaviour, IDragHandler, IPointerUpH
     [SerializeField] private Sprite sprite;
     [SerializeField] protected GameObject attackGOPrefab;
 
-    private Place place = Place.Menu;
     private DefenceGrid currentDefenceAreaGrid;
     private Place previousPlace;
     private float moveDuration = .3f;
@@ -41,6 +40,8 @@ public abstract class DefenceItemBase : MonoBehaviour, IDragHandler, IPointerUpH
         get=> defenceMenuItem;
         set => defenceMenuItem = value;
     }
+
+    private Place place = Place.Menu;
     public Place Place
     {
         get => place;
@@ -121,9 +122,7 @@ public abstract class DefenceItemBase : MonoBehaviour, IDragHandler, IPointerUpH
             nearestDefenceAreaGrid = DefenceAreaManager.Instance.GetEmptyNearestDistanceToMyPos(transform.position);
             if (nearestDefenceAreaGrid == null)
             {
-                rectTr.anchoredPosition = Vector2.zero;
-                DefenceMenuItem.Amount++;
-                Place = Place.Menu;
+                TakeBackDefenceItemToMenu();
                 return;
             }
         }
@@ -151,6 +150,13 @@ public abstract class DefenceItemBase : MonoBehaviour, IDragHandler, IPointerUpH
 
         if (previousPlace == Place.Menu)
             DefenceMenuItem.CreateDefenceItemControl();
+    }
+
+    private void TakeBackDefenceItemToMenu()
+    {
+        rectTr.anchoredPosition = Vector2.zero;
+        DefenceMenuItem.Amount++;
+        Place = Place.Menu;
     }
 
     protected void Swap(DefenceGrid nearestDefenceAreaGrid)

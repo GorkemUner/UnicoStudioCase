@@ -3,7 +3,6 @@ using UnityEngine;
 public class PlayerPrefsManager : Singleton<PlayerPrefsManager>
 {
     private PlayerData playerData;
-
     public PlayerData PlayerData
     {
         get

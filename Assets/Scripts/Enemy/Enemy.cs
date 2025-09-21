@@ -7,7 +7,11 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI healthText;
     [SerializeField] private Image img;
+
     private EnemyData data;
+
+    private bool isDead = false;
+
     public EnemyData Data
     {
         get => data;
@@ -29,9 +33,6 @@ public class Enemy : MonoBehaviour
     }
 
     private int currentHealth;
-
-    private bool isDead = false;
-
     public int CurrentHealth
     {
         get => currentHealth;
